@@ -8,12 +8,12 @@ const app = express();
 app.post('/projects', (req, res) => {
 
     let projects = new Projects({
-        name: 'Stock System',
-        description: 'Develop a system that allows you to control the inventory of a company; using Visual Basic and MySQL.',
-        linkgitfront: "github.com/andreseguanipa1/visual-basic-inventario",
-        linkgit: "https://github.com/andreseguanipa1/visual-basic-inventario",
-        linkherokufront: null,
-        linkheroku: null
+        name: 'Live Chat',
+        description: 'Live chat using Socket.io, people will be able to talk in differents chat rooms with their family, friends, classmates, etc.',
+        linkgitfront: "github.com/andreseguanipa1/node-chat",
+        linkgit: "https://github.com/andreseguanipa1/node-chat",
+        linkherokufront: "my-web-chat-andres.herokuapp.com",
+        linkheroku: "https://my-web-chat-andres.herokuapp.com/"
 
     });
 
