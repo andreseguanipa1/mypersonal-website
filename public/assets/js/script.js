@@ -26,9 +26,39 @@ function displayProjects(projects) {
     document.getElementById('projects').innerHTML = projectsHTML;
 }
 
+//////////////////////////////////////////////////////////////////////////////////////// Al cargar la pagina...
+
 window.onload = async() => {
     const projects = await (await fetch("/projects")).json();
     displayProjects(projects);
     AOS.init();
 
 }
+
+//////////////////////////////////////////////////////////////////////////////////////// Slide
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    nav:false,
+    dots:false,          //false, si se quieren quitar los puntos en la parte de abajo
+    autoplay:true,      //true, si se quiere que el slide pase automaticamente
+    autoplayTimeout: 2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+            items:2
+        },
+        930:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+        1200:{
+            items:5
+        }
+    }
+})
