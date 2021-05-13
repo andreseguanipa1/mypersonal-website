@@ -49,9 +49,9 @@ $('.owl-carousel').owlCarousel({
             items:1
         },
         450:{
-            items:2
+            items:2,
         },
-        930:{
+        830:{
             items:3
         },
         1000:{
@@ -59,6 +59,9 @@ $('.owl-carousel').owlCarousel({
         },
         1200:{
             items:5
+        },
+        1550:{
+            items:6,
         }
     }
 })
