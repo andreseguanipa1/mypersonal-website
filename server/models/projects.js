@@ -31,6 +31,11 @@ let usuarioSchema = new Schema({
     linkherokufront: {
         type: String,
         required: false
+    },
+
+    web: {
+        type: String,
+        required: [true, 'web is required']
     }
 
 });
