@@ -5,7 +5,7 @@ const Projects = require('../models/projects');
 const app = express();
 
 
-app.post('/projects', (req, res) => {
+/* app.post('/projects', (req, res) => {
 
     let projects = new Projects({
         name: "Project Unmoored",
@@ -39,7 +39,7 @@ app.post('/projects', (req, res) => {
         })
     })
 
-});
+}); */
 
 
 app.get('/projects', (req,res) => {
