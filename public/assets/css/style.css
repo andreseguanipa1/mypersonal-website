@@ -23,6 +23,10 @@ body{
     width: 100%;
 }
 
+#content-page{
+    margin-top: 45%;
+}
+
 .txt-pro{
     color: #212529;
     font-family: 'Montserrat', sans-serif;
@@ -126,7 +130,7 @@ footer{
     }
 
     #content-page{
-        margin-top: 25%;
+        margin-top: 170%;
         padding-top: 10%;
     }
 
