@@ -1,0 +1,54 @@
+@media only screen and (max-width:1000px) {
+
+    body{
+        background: url('../img/back-1.jpg');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+
+    }
+
+    .content{
+        margin-top: 170%;
+    }
+
+    .me{
+        padding: 10% 5% 5% 5%;
+    }
+
+    .extra2{
+        padding: 0% 0% 0% 0%;
+        position: relative;
+    }
+
+    .extra1{
+        position: relative;
+    }
+
+    #footer{
+        padding: 0% 0% 5% 0%;
+    }
+
+    #content-footer{
+        padding: 5% 0% 5% 8%;
+    }
+    
+    .img-slider{
+        width: 200px;
+        height: 200px;
+        padding: 3% 15% 3% 15%;
+    }
+
+    #carousel{
+        margin: auto;
+        padding: 0% 0% 5% 0%;
+    }
+
+    #skills{
+        padding-bottom: 10%;
+    }
+
+    .icons{
+        padding: 5%;
+    }
+
+} 

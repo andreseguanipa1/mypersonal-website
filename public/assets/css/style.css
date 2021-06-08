@@ -10,32 +10,36 @@ body{
     overflow-x: hidden;
 }
 
-.content-page-pro{
+.content{
+    margin-top: 45%;
+}
+
+.back-white{
     background-color: #FFF;
     padding: 5%;
     width: 100%;
 
 }
 
-.content-page{
+.divider{
+    background: #fff;
+    width: 15%;
+}
+
+#skills{
+    padding-bottom: 32%;
+}
+
+.me{
     background-color: #212529;
     padding: 5%;
     width: 100%;
 }
 
-#content-page{
-    margin-top: 45%;
-}
-
-.txt-pro{
-    color: #212529;
-    font-family: 'Montserrat', sans-serif;
-}
 
 .info{
     position: relative;
     padding-left: 10%;
-
 }
 
 .photo{
@@ -49,24 +53,6 @@ body{
 
 .space{
     margin-left: 1%;
-}
-
-h2, h4, p, a{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.junior{
-    color: white;
-    font-family: 'Montserrat Alternates', sans-serif;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    color:gray;
 }
 
 .contact-1{
@@ -100,66 +86,70 @@ footer{
     position: absolute;
 }
 
-.container-1{
-    float: left;
+.extra1{
+    position: absolute;
 }
 
-.container-2{
-    float: left;
+.extra2{
+    position: absolute;
     padding-left: 30%;
+
 }
 
-#interests{
-    font-size: 110%;
-}
-
-#nabvar{
+.menu{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
 }
 
-@media only screen and (max-width:1000px) {
+.icons{
+    color: #fff;
+    padding: 0% 2% 0% 2%;
+}
 
-    body{
-        background: url('../img/back-1.jpg');
-        background-size: 100% 100%;
-        background-attachment: fixed;
+.icon{
+    padding: 0% 3% 0% 3%;
+}
 
-    }
+.instagram:hover{
+    color: #AD308B;
+    cursor: pointer;
 
-    #content-page{
-        margin-top: 170%;
-        padding-top: 10%;
-    }
+}
 
-    .container-2{
-        padding: 0% 0% 0% 0%;
-        float: none;
-    }
+.whatsapp:hover{
+    color: #25d366;
+    cursor: pointer;
 
-    .container-1{
-        float: none;
-    }
+}
 
-    #footer{
-        padding: 0% 0% 5% 0%;
-    }
+.gmail:hover{
+    color: #dd4b39;
+    cursor: pointer;
+}
 
-    #content-footer{
-        padding: 5% 0% 5% 8%;
-    }
-    
-    .img-slider{
-        width: 200px;
-        height: 200px;
-        padding: 3% 15% 3% 15%;
-    }
+/* -------------- 
+        Fonts
+   --------------*/
 
-    #carousel{
-        margin: auto;
-        padding: 0% 0% 5% 0%;
-    }
+h2, h4, p, a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 
-} 
+}
+
+.txt-pro{
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+    color:gray;
+}
+
+.junior{
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
