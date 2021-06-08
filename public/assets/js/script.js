@@ -17,7 +17,7 @@ function displayProjects(projects) {
             <h4 class="txt-pro">${element.name}</h4>
             <p class="txt-pro">${element.description}</p>
             <p class="txt-pro">GitHub: <a class="txt-pro" href="${element.linkgit}" target="_blank">${element.linkgitfront}</a></p>
-            <p class="txt-pro">Heroku: <a class="txt-pro" href="${element.linkheroku}" target="_blank">${element.linkherokufront}</a></p>`
+            <p class="txt-pro">Link: <a class="txt-pro" href="${element.linkheroku}" target="_blank">${element.linkherokufront}</a></p>`
 
         } 
 
