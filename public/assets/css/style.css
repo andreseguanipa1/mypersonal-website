@@ -129,6 +129,11 @@ footer{
     cursor: pointer;
 }
 
+.linkedln:hover{
+    color: #006394;
+    cursor: pointer;
+}
+
 /* -------------- 
         Fonts
    --------------*/
