@@ -1,4 +1,4 @@
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:780px) {
 
     body{
         background: url('../img/back-1.jpg');
@@ -15,13 +15,19 @@
         padding: 10% 5% 5% 5%;
     }
 
-    .extra2{
-        padding: 0% 0% 0% 0%;
-        position: relative;
+    .skills2{
+        position: static;
+        float: none;
     }
 
-    .extra1{
-        position: relative;
+    .skills1{
+        position: static;
+        float: none;
+    }
+
+    .skills-container{
+        padding-bottom: 10%;
+        display: inline;
     }
 
     #footer{

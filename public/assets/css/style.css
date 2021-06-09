@@ -26,10 +26,6 @@ body{
     width: 15%;
 }
 
-#skills{
-    padding-bottom: 32%;
-}
-
 .me{
     background-color: #212529;
     padding: 5%;
@@ -79,21 +75,41 @@ footer{
 }
 
 .line-skills{
+    background-color: #212529;
+    height: 4px;
     position: absolute;
+    margin-top: 6px;
+    width: 280px;
 }
 
 .circle-skills{
+    background-color: #212529;
+    border-radius: 100%;
+    height: 16px !important;
     position: absolute;
+    width: 16px !important;
+
 }
 
-.extra1{
-    position: absolute;
+.skills-container{
+    display: flex;
+    width: 100%;
 }
 
-.extra2{
-    position: absolute;
-    padding-left: 30%;
+.skills{
+    padding-bottom: 1%;
+}
 
+.skills1{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.skills2{
+    width: 50%;
+    position: relative;
+    float: left;
 }
 
 .menu{
