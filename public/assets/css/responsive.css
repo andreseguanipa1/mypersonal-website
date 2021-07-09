@@ -57,4 +57,13 @@
         padding: 5%;
     }
 
+    .space .experience{
+        margin-left: 0%;
+        padding: 3%;
+    }
+
+    .info{
+        position: relative;
+        padding-left: 3%;
+    }
 } 
