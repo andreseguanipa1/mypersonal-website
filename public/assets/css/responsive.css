@@ -66,4 +66,36 @@
         position: relative;
         padding-left: 3%;
     }
-} 
+}
+
+@media only screen and (max-width:755px) {
+
+    #splideExperience{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width:620px) {
+
+    #splideExperience{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .cardContainer {
+        width: 300px;
+        min-width: 300px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+
+    #splideExperience{
+        width: 95%;
+        margin: auto;
+    }
+
+}

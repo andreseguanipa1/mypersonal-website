@@ -39,32 +39,58 @@ window.onload = async() => {
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:5,
     nav:false,
     dots:false,          //false, si se quieren quitar los puntos en la parte de abajo
     autoplay:true,      //true, si se quiere que el slide pase automaticamente
-    autoplayTimeout: 2000,
+    autoplayTimeout: 3000,
     responsive:{
         0:{
             items:1
-        },
-        450:{
-            items:2,
-        },
-        830:{
-            items:3
-        },
-        1000:{
-            items:4
-        },
-        1200:{
-            items:5
-        },
-        1550:{
-            items:6,
         }
     }
 })
+
+window.addEventListener('load', function(){
+    new Splide('#splideExperience', {
+        type   : 'loop',
+        pauseOnFocus: false,
+        perPage: 6,
+        autoplay: true,
+        interval: 3000,
+        cover: true,
+        lazyLoad: "sequential",
+        height: 230,
+        with: 250,
+        breakpoints: {
+
+            500: {
+                perPage: 1,
+                height: 300,
+            },
+
+            620: {
+                perPage: 1,
+                height: 370,
+            },
+
+            755: {
+                perPage: 2,
+                height: 270,
+            },
+
+
+            920: {
+                perPage: 3,
+                height: 250,
+            },
+
+            1200: {perPage: 4},
+            1380: {perPage: 5},
+            1550: {perPage: 6},
+        }
+
+      }).mount();
+});
 
 //////////////////////////////////////////////////////////////////////////////////////// Card
 
