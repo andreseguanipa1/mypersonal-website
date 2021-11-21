@@ -66,6 +66,10 @@
         position: relative;
         padding-left: 3%;
     }
+
+    .click {
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width:755px) {
@@ -75,18 +79,27 @@
         margin: auto;
     }
 
+    .click {
+        margin-top: 40px;
+    }
+
 }
 
 @media only screen and (max-width:620px) {
+
+    .cardContainer {
+        width: 300px;
+        height: 560px;
+        min-width: 300px;
+    }
 
     #splideExperience{
         width: 80%;
         margin: auto;
     }
-    
-    .cardContainer {
-        width: 300px;
-        min-width: 300px;
+
+    .click {
+        margin-top: 95px;
     }
 
 }

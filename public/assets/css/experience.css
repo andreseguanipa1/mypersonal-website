@@ -24,7 +24,7 @@
 }
 
 .ul, .li{
-  font-size: 110%;
+  font-size: 100%;
 }
 
 .ul, .li {
@@ -45,7 +45,7 @@
 .cardContainer {
   position: relative;
   width: 400px;
-  height: 480px;
+  height: 540px;
   min-width: 400px;
   min-height: 480px;
   margin: 4px;
@@ -137,4 +137,8 @@
 .back .li {
   line-height: 22px;
   margin: 2px 0 6px 0;
+}
+
+.click {
+  margin-top: 55px;
 }
