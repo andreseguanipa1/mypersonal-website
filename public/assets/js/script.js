@@ -1,4 +1,4 @@
-function displayProjects(projects) {
+/* function displayProjects(projects) {
 
     let projectsHTML = '';
 
@@ -24,13 +24,13 @@ function displayProjects(projects) {
     });
 
     document.getElementById('projects').innerHTML = projectsHTML;
-}
+} */
 
 //////////////////////////////////////////////////////////////////////////////////////// Al cargar la pagina...
 
-window.onload = async() => {
-    const projects = await (await fetch("/projects")).json();
-    displayProjects(projects);
+window.onload = () => {
+    //const projects = await (await fetch("/projects")).json();
+    //displayProjects(projects);
     AOS.init();
 
 }

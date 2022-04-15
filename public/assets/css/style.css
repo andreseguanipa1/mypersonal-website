@@ -32,6 +32,10 @@ body{
     width: 100%;
 }
 
+.me-photo {
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+}
+
 
 .info{
     position: relative;
@@ -129,7 +133,7 @@ footer{
 }
 
 .icon-exp{
-    padding: 0% 10% 0% 10%;
+    padding: 0% 8% 0% 8%;
 }
 
 .instagram:hover{
@@ -170,8 +174,14 @@ h2, h4, p, a, li{
     font-family: 'Montserrat', sans-serif;
 }
 
+.txt-link{
+    color: #1f3a55;
+    font-family: 'Montserrat', sans-serif;
+}
+
 a:hover{
     color:gray;
+    text-decoration: underline;
 }
 
 .junior{
